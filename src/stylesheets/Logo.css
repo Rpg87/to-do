@@ -1,0 +1,11 @@
+.container-logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.raquel-logo {
+    width: 45%;
+}
