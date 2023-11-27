@@ -14,6 +14,24 @@ const TasksList = () => {
             setTasks(updatedTasks);
         }
     }
+
+    const taskDelete = (id) => {
+        const updatedTasks = tasks.filter(task => task.id !== id);
+        setTasks(updatedTasks);
+
+    }
+
+    const completeTask = (id) => {
+        const updatedTasks = tasks.map(task => {
+            if (task.id === id) {
+                task.complete = !task.complete
+            }
+            return task
+        })
+        setTasks(updatedTasks);
+    };
+
+
     return (
         <>
             <Form onSubmit={addTask} />
@@ -24,8 +42,10 @@ const TasksList = () => {
                             key={task.id}
                             id={task.id}
                             text={task.text}
-                            complete={task.complete} />
-
+                            complete={task.complete}
+                            taskDelete={taskDelete}
+                            onComplete={completeTask}
+                        />
 
                     )
                 }

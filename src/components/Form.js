@@ -18,8 +18,6 @@ const Form = (props) => {
             id: uuidv4(),
             text: input,
             complete: false,
-
-
         }
 
         props.onSubmit(newTask);
@@ -33,7 +31,7 @@ const Form = (props) => {
             <input
                 type="text"
                 className="input-task"
-                placeholder="Añade una tarea."
+                placeholder="Añade una tarea"
                 name="text"
                 onChange={handleChange} />
             <button className="button-task">

@@ -1,11 +1,20 @@
-.container-logo {
+.container {
     width: 100%;
+}
+
+.container-logo {
+    width: 20%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-
 }
 
 .raquel-logo {
-    width: 45%;
+    max-width: 100%;
+}
+
+@media all and (max-width: 750px) {
+    .container-logo {
+        width: 35%;
+    }
 }
