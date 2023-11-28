@@ -15,16 +15,30 @@
 /* color gradients */
 
 .container-task:nth-child(3n + 1) {
-    background-color: #1b1b32;
+    background-color: #1B1B32;
 }
 
 .container-task:nth-child(3n + 2) {
-    background-color: #2a2a40;
+    background-color: #29294b;
 }
 
 .container-task:nth-child(3n + 3) {
-    background-color: #3b3b4f;
+    background-color: #3d3d72;
 }
+
+.container-task:nth-child(6n + 4) {
+    background-color: #4b4b8b;
+}
+
+.container-task:nth-child(6n + 5) {
+    background-color: #5959a5;
+}
+
+.container-task:nth-child(6n + 6) {
+    background-color: #6565ac;
+}
+
+
 
 .task-text {
     width: 100%;

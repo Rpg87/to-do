@@ -11,25 +11,23 @@
     background-color: white;
     padding: 14px 28px 14px 20px;
     border-radius: 4px 0 0 4px;
-    border: 2px solid #00471b;
+    border: 2px solid #1b1b32;
     outline: none;
 }
 
 .button-task {
-    padding: 13px 13px 12px 13px;
-    /* padding: 12px 32px 12px 32px; */
+    padding: 13px 13px 13px 13px;
     font-size: 18px;
     font-family: agbalumo, sans-serif;
     border: none;
     border-radius: 0 4px 4px 0;
     cursor: pointer;
-    background: #1b1b32;
-    border: 2px solid fuchsia;
+    background-color: #1b1b32;
     color: white;
     text-transform: capitalize;
 }
 
-@media all and (max-width: 750px) {
+@media all and (max-width: 560px) {
 
 
     .button-task {
