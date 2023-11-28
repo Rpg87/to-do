@@ -58,6 +58,12 @@ The application utilizes separate CSS stylesheets for each component to maintain
 - Task items have stylish color gradients based on their position in the list.
 - Gradients enhance the visual appeal of the application.
 
+## Demo
+
+<details open= 'open'> <summary>  </summary> 
+<img width= '600px'  src="src/images/demo.gif" />
+</details>
+
 ## Usage
 
 1. Clone the repository.
